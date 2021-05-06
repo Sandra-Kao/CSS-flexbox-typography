@@ -1,7 +1,7 @@
 # CSS-flexbox-typography
 
 Please see codepen:
-https://codepen.io/K-SY/pen/XWMWRyz?editors=1100
+https://codepen.io/K-SY/pen/XWMWRyz
 
 
 ``` scss
