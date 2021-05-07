@@ -30,7 +30,7 @@ https://codepen.io/K-SY/pen/XWMWRyz
 
 @mixin RWD-800-flex($flex) {
   @media (max-width: 800px) {
-    margin: var(--margin-h);
+    margin: 0.2rem;
     flex: $flex;
   }
 }
@@ -53,29 +53,29 @@ https://codepen.io/K-SY/pen/XWMWRyz
 
     .col-1-of-2 {
       @include baseCol;
-      @include RWD-800-flex(2);
+      @include RWD-800-flex(1);
     }
 
     .col-1-of-3 {
       max-width: calc((100% - var(--margin-h) * 2) / 3);
       @include baseCol;
-      @include RWD-800-flex(2);
+      @include RWD-800-flex(1);
     }
 
     .col-2-of-3 {
       @include baseCol;
-      @include RWD-800-flex(3);
+      @include RWD-800-flex(2);
     }
 
     .col-1-of-4 {
       max-width: calc((100% - var(--margin-h) * 3) / 4);
       @include baseCol;
-      @include RWD-800-flex(2);
+      @include RWD-800-flex(1);
     }
 
     .col-2-of-4 {
       @include baseCol;
-      @include RWD-800-flex(4);
+      @include RWD-800-flex(2);
     }
 
     .col-3-of-4 {
@@ -84,5 +84,6 @@ https://codepen.io/K-SY/pen/XWMWRyz
     }
   }
 }
+
 
 ```
